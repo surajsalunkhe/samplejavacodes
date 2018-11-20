@@ -1,6 +1,6 @@
 import java.util.TreeSet;
 
-public class TreeSetExample {
+public class TreeSetExample2{
 
     public static void main(String[] args) {
         System.out.println("Tree Set Example!\n");
