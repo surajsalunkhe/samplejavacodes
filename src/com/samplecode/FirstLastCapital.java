@@ -1,5 +1,3 @@
-package com.samplecode;
-
 import java.util.Scanner;
 
 public class FirstLastCapital {

@@ -1,5 +1,3 @@
-package com.samplecode;
-
 import java.util.Scanner;
 
 public class swapnumbers {
@@ -13,6 +11,10 @@ public class swapnumbers {
         no1=no2-no1;
         no2=no2-no1;
         System.out.println("swapped first no:"+no1+"\n second no:"+no2);
+        no1=no1^no2;
+        no2=no1^no2;
+        no1=no1^no2;
+        System.out.println("swapped first no by boolean:"+no1+"\n second no by boolean:"+no2);
     }
 }
 //1 2
